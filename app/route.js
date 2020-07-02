@@ -14,9 +14,3 @@ app.config(function ($routeProvider) {
             templateUrl: "templates/contact.html"
         });
 });
-app.controller('myController', function ($scope) {
-    $scope.details=[];
-    $scope.Details = function () {
-        $scope.details.push($scope.firstname);
-    };
-});
